@@ -1,0 +1,7 @@
+.bt-roxo{
+    border-color: blueviolet ;
+}
+
+.bt-roxo:hover{
+    background: blueviolet ;
+}
