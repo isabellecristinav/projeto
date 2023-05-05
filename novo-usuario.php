@@ -16,6 +16,13 @@ include "menu.php";
                 <input type="password" name="senha" required placeholder="Senha"><br>
                 <button type="submit" class="btn btn-success">Salvar Usuário</button>
             </form>
+            <?php
+            $mensagem = $_GET["msg"] ?? "";
+            if ($mensagem =="sucesso"){
+                echo "<em class= 'text-success'>Usuário cadastrado com sucesso/ᐠ｡ꞈ｡ᐟ\.</em>";
+            }
+            ?>
         </div>
     </div>
+
 </div>
