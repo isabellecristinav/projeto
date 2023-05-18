@@ -23,7 +23,10 @@ include "menu-sistema.php";
                         <td><?php echo $um_usuario["id"]; ?></td>
                         <td><?php echo $um_usuario["nome"]; ?></td>
                         <td><?php echo $um_usuario["email"]; ?></td>
-                        <td><img src="img/lixo.png" width="25"></td>
+                        <td><a href="excluir-usuario.php?id=<?php echo $um_usuario["id"]; ?>"><img src="img/lixo.png" width="25"></a></td>
+                        <td><a href="ver-usuario.php?id=<?php echo $um_usuario["id"]; ?>"><img src="img/ver.png" width="25"></a></td>
+                        <td><a href="editar-usuario.php?id=<?php echo $um_usuario["id"]; ?>"><img src="img/editar.png" width="25"></a></td>
+
                     </tr>
                 <?php
                 endwhile;

@@ -27,6 +27,12 @@ include "menu-sistema.php";
                             <a href="excluir-jogos.php?id=<?php echo $um_jogo["id"]; ?>">
                                 <img src=" img/lixo.png" width="25">
                             </a>
+                            <a href="ver-jogo.php?id=<?php echo $um_jogo["id"]; ?>">
+                                <img src=" img/ver.png" width="25">
+                            </a>
+                            <a href="editar-jogo.php?id=<?php echo $um_jogo["id"]; ?>">
+                                <img src=" img/editar.png" width="20">
+                            </a>
                         </td>
                     </tr>
                 <?php
